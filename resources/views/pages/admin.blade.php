@@ -81,8 +81,8 @@
             <td style="border: 1px solid black ;">
             <button class="btn btn-danger">
                 <a href="/delete/{{$event -> id}}"  style="color: black;">DELETE</a></button>
-            <button class="btn btn-primary">
-                <a href="/edit/{{$event -> id}}" style="color: black;">EDIT</a></button>
+            <!-- <button class="btn btn-primary">
+                <a href="/edit/{{$event -> id}}" style="color: black;">EDIT</a></button> -->
             </td>
 
 

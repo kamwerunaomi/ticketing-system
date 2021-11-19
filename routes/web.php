@@ -18,9 +18,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminControlls;
 
-Route::get('/', 'PagesController@index');
-Route::get('book', 'PagesController@book');
-Route::get('admin', 'AdminControlls@displayEvents');
+// Route::get('/', 'PagesController@index');
+Route::get('/', 'PagesController@book');
+Route::get('/admin', 'AdminControlls@displayEvents');
 
 Route::post('admin/addEvent', 'AdminControlls@addEvent');
 Route::get('edit/{id}', 'AdminControlls@edit');

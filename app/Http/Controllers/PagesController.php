@@ -73,6 +73,17 @@ class PagesController extends Controller
                     ->subject($email_data['subject']);
         });
         return redirect()->back()->with('success','A confirmation email has been sent to you!');
+
+        function emailTemplate($id){
+            $row= DB::table('events')
+                -> where('id', $id)
+                ->first();
+            $data = [
+                'Info' => $row
+            ];
+    
+            return view('pages.bookEvent', $data);
+        }
     }
 }
 

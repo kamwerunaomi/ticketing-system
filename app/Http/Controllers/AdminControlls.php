@@ -88,7 +88,7 @@ class AdminControlls extends Controller
         $delete = DB::table('events')
             -> where('id', $id)
             -> delete();
-        return redirect('pages.admin');
+        return redirect('admin');
     }
     
 }

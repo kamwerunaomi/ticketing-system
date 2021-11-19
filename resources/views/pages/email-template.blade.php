@@ -1,6 +1,6 @@
-<p>Hello</p>
+<p>Hello {{firstname}}</p>
 
-You're receiving this email to confirm the event booking.
+You're receiving this email to confirm the event booking
 
 
 

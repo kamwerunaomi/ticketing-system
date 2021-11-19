@@ -55,22 +55,18 @@
             <i class="ni ni-tv-2 text-primary"></i> Dashboard
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class=" nav-link {% if 'index' in segment %} active {% endif %}" href="/book"> 
               <i class="ni ni-check-bold text-primary"></i> Book Ticket
               </a>
-            </li>
+            </li> -->
           <li class="nav-item">
             <a class="nav-link {% if 'tables' in segment %} active {% endif %}" href="/admin">
               <i class="ni ni-circle-08 text-info"></i> Admin
             </a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'logout' %}">
-              <i class="ni ni-user-run text-red"></i> Logout
-            </a>
-          </li>
+          
         </ul>
         <!-- Divider -->
         <!-- <hr class="my-3"> -->
