@@ -1,7 +1,7 @@
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
-    <link href="../dist-assets/css/themes/lite-purple.min.css" rel="stylesheet" />
-    <link href="../dist-assets/css/plugins/perfect-scrollbar.min.css" rel="stylesheet" />
+    <link href="{{ asset('/css/themes/lite-purple.min.css') }}" rel="stylesheet"> 
+    <link href="{{ asset('/css/plugins/perfect-scrollbar.min.css') }}" rel="stylesheet"> 
+
 </head>
 <body>
   <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">

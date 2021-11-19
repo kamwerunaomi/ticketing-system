@@ -42,7 +42,7 @@
 
         </div>
         <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-block"> SAVE </button>
+            <button type="submit" class="btn btn-primary btn-block"> BOOK TICKET </button>
         </div>
     
     </form>
